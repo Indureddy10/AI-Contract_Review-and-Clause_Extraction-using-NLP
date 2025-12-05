@@ -1,0 +1,24 @@
+
+
+
+FLASK_ENV=development
+SECRET_KEY=06ebecc2e6bb6f0ec30ed14b02f653baa65493c6deeafc48994582f7cdafaa46
+DATABASE_URL=postgresql+psycopg2://postgres:1011@localhost:5432/wiseanalyticsdb
+
+
+# JWT
+JWT_SECRET_KEY=85904ee5dc0881f70f87027b3b51d0c4c5055b1753b4bf3d97b618bb3a32f5bf
+JWT_ACCESS_TOKEN_EXPIRES=36000  # seconds
+
+# Mail (example using a Gmail account - enable App Passwords or allow less secure apps appropriately)
+MAIL_SERVER=smtp.gmail.com
+MAIL_DEFAULT_SENDER=indureddy10101@gmail.com
+MAIL_USERNAME=indureddy10101@gmail.com
+MAIL_PORT=587
+MAIL_USE_TLS=True
+MAIL_USE_SSL=False
+MAIL_PASSWORD=bfewrhlfwgoqruzt
+
+
+# Password reset token salt
+# PASSWORD_RESET_SALT=password-reset-salt
